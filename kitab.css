@@ -1,0 +1,100 @@
+
+body {
+    background-color: grey;
+}
+.container {
+    background-color: rgb(200, 78, 78);
+    border-radius: 1em;
+}
+
+.container:hover {
+    background-color: rgb(0, 255, 34);
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.dropdown-toggle{
+    text-align: center;
+}
+
+.btn-secondary {
+    text-align:center ;
+    background-color: rgb(200, 78, 78);
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: rgb(0, 255, 17);
+}
+
+.btn:hover {
+    background-color: rgb(0, 255, 17);
+}
+
+button:hover {
+    background-color: chartreuse;
+}
+
+input[type=checkbox] {
+    accent-color: crimson;
+    align-items: left;
+  }
+
+.dropdown-item:hover {
+    background-color: rgb(0, 255, 98);
+    border-radius: 1em;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: crimson;
+    border-radius: 1em;
+}
+
+.a:hover {
+    background-color: aquamarine;
+}
+
+.card-img-overlay {
+}
+
+.card-img {
+    background: rgba(24, 29, 56, .7);
+
+}
+
+.card {
+    padding: -25px;
+    height: -25px;
+    width: -100%;
+}
+
+.div.container-fluid {
+    background-color: blue;
+}
+
+.nav.navbar.navbar-expand-lg.bg-body-tertiary {
+ background-color: aqua;
+}
+  
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    background-color: rgb(255, 0, 0);
+}
+
+.bg-body-tertiary {
+    background-color: rgb(255, 0, 0);
+}
+
+.bg-body-tertiary {
+    background-color: black;
+}
+
+span {
+    color: aliceblue;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: antiquewhite;
+}
+
